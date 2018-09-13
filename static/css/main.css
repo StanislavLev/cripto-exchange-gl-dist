@@ -1,0 +1,38 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.main-col{
+  height: 100%;
+  border: solid grey 1px;
+  padding: 0;
+}
+
+.header-container{
+  height: 70px;
+  padding: 0 15px;
+  border: solid grey 1px;
+  overflow: auto;
+}
+
+.header-container > *{
+  margin: 5px;
+}
+
+.items-container{
+  height: calc(100% - 70px);
+  padding: 10px;
+  border-top: solid grey 1px;
+  overflow: auto;
+}
+
+.height100{
+  height: 100%;
+}
